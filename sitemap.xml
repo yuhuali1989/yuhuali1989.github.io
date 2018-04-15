@@ -3,7 +3,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yuhuali1989.github.io/post/leetcodes/</loc>
+    <lastmod>2018-04-07T23:31:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yuhuali1989.github.io/about/</loc>
+    <lastmod>2018-04-07T19:34:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://yuhuali1989.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yuhuali1989.github.io/post/</loc>
+    <lastmod>2018-04-07T23:31:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -16,6 +37,7 @@
   
   <url>
     <loc>http://yuhuali1989.github.io/</loc>
+    <lastmod>2018-04-07T23:31:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
