@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 于华丽</title>
-    <link>http://yuhuali1989.github.io/post/</link>
-    <description>Recent content in Posts on 于华丽</description>
+    <title>Algo Dp on 于华丽</title>
+    <link>http://yuhuali1989.github.io/tags/algo-dp/</link>
+    <description>Recent content in Algo Dp on 于华丽</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Apr 2018 23:31:36 +0800</lastBuildDate>
     
-	<atom:link href="http://yuhuali1989.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yuhuali1989.github.io/tags/algo-dp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
