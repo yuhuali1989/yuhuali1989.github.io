@@ -10,7 +10,21 @@
   </url>
   
   <url>
-    <loc>http://yuhuali1989.github.io/post/leetcodes/</loc>
+    <loc>http://yuhuali1989.github.io/post/architecture/big-data-architecture/</loc>
+    <lastmod>2018-05-06T21:05:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yuhuali1989.github.io/post/design/design-patterns/</loc>
+    <lastmod>2018-05-06T20:46:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yuhuali1989.github.io/post/algo/dynamic-pogramming/</loc>
     <lastmod>2018-04-07T23:31:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -38,6 +52,13 @@
   </url>
   
   <url>
+    <loc>http://yuhuali1989.github.io/categories/big-data-architecture/</loc>
+    <lastmod>2018-05-06T21:05:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://yuhuali1989.github.io/categories/</loc>
     <lastmod>2018-04-07T23:31:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,8 +66,29 @@
   </url>
   
   <url>
+    <loc>http://yuhuali1989.github.io/tags/design-patterns/</loc>
+    <lastmod>2018-05-06T20:46:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yuhuali1989.github.io/categories/design-patterns/</loc>
+    <lastmod>2018-05-06T20:46:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yuhuali1989.github.io/tags/info-big-data/</loc>
+    <lastmod>2018-05-06T21:05:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://yuhuali1989.github.io/post/</loc>
-    <lastmod>2018-04-07T23:31:36+08:00</lastmod>
+    <lastmod>2018-05-06T21:05:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Big Data Architecture on 于华丽</title>
+    <link>http://yuhuali1989.github.io/categories/big-data-architecture/</link>
+    <description>Recent content in Big Data Architecture on 于华丽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 May 2018 21:05:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://yuhuali1989.github.io/categories/big-data-architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Big Data Architecture</title>
+      <link>http://yuhuali1989.github.io/post/architecture/big-data-architecture/</link>
+      <pubDate>Sun, 06 May 2018 21:05:42 +0800</pubDate>
+      
+      <guid>http://yuhuali1989.github.io/post/architecture/big-data-architecture/</guid>
+      <description>Overview 大数据架构</description>
+    </item>
+    
+  </channel>
+</rss>

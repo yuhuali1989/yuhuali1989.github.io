@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Tags - 于华丽</title>
+  <title>Dynamic Programming - 于华丽</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,6 +17,8 @@
 
 
 <meta name="author" content="于华丽" />
+  <meta name="description" content="Overview 动态规划是一种算法优化手段，通过把复杂问题拆解成一系列会重复出现的子问题，存储子问题的状态，利用子问题状态减少计算，因此通常比朴素解法时间" />
+
   <meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -27,9 +29,7 @@
 <meta name="generator" content="Hugo 0.38.1" />
 
 
-<link rel="canonical" href="http://yuhuali1989.github.io/tags/" />
-<link href="http://yuhuali1989.github.io/tags/index.xml" rel="alternate" type="application/rss+xml" title="于华丽" />
-  <link href="http://yuhuali1989.github.io/tags/index.xml" rel="feed" type="application/rss+xml" title="于华丽" />
+<link rel="canonical" href="http://yuhuali1989.github.io/post/algo/dynamic-pogramming/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -49,30 +49,41 @@
 
 
 
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://yuhuali1989.github.io/tags/" />
+<meta property="og:title" content="Dynamic Programming" />
+<meta property="og:description" content="Overview 动态规划是一种算法优化手段，通过把复杂问题拆解成一系列会重复出现的子问题，存储子问题的状态，利用子问题状态减少计算，因此通常比朴素解法时间" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://yuhuali1989.github.io/post/algo/dynamic-pogramming/" />
 
 
 
-<meta property="og:updated_time" content="2018-04-07T23:31:36&#43;08:00"/>
+<meta property="article:published_time" content="2018-04-07T23:31:36&#43;08:00"/>
 
-
-
-
-
-
+<meta property="article:modified_time" content="2018-04-07T23:31:36&#43;08:00"/>
 
 
 
 
-<meta itemprop="name" content="Tags">
-<meta itemprop="description" content="">
 
+
+
+
+
+
+
+<meta itemprop="name" content="Dynamic Programming">
+<meta itemprop="description" content="Overview 动态规划是一种算法优化手段，通过把复杂问题拆解成一系列会重复出现的子问题，存储子问题的状态，利用子问题状态减少计算，因此通常比朴素解法时间">
+
+
+<meta itemprop="datePublished" content="2018-04-07T23:31:36&#43;08:00" />
+<meta itemprop="dateModified" content="2018-04-07T23:31:36&#43;08:00" />
+<meta itemprop="wordCount" content="75">
+
+
+
+<meta itemprop="keywords" content="algo-dp," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Dynamic Programming"/>
+<meta name="twitter:description" content="Overview 动态规划是一种算法优化手段，通过把复杂问题拆解成一系列会重复出现的子问题，存储子问题的状态，利用子问题状态减少计算，因此通常比朴素解法时间"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -136,37 +147,121 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          
-  
-    <div class="tag-cloud">
-      <div class="tag-cloud-title">
-        
-          3 Tags In Total
-        
-      </div>
-      <div class="tag-cloud-tags">
-        
-          <a href="/tags/algo-dp/">
-            algo-dp
-            <span class="tag-count">1</span>
-          </a>
-        
-          <a href="/tags/design-patterns/">
-            design-patterns
-            <span class="tag-count">1</span>
-          </a>
-        
-          <a href="/tags/info-big-data/">
-            info-big-data
-            <span class="tag-count">1</span>
-          </a>
-        
-      </div>
-    </div>
-  
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Dynamic Programming</h1>
 
+      <div class="post-meta">
+        <span class="post-time"> 2018-04-07 </span>
+        <div class="post-category">
+            
+              <a href="/categories/algo-dp/"> algo-dp </a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#steps">Steps</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h2 id="overview">Overview</h2>
+
+<blockquote>
+<p>动态规划是一种<strong>算法优化手段</strong>，通过把复杂问题拆解成一系列会<strong>重复</strong>出现的子问题，存储子问题的<strong>状态</strong>，利用子问题状态减少计算，因此通常比朴素解法时间复杂度低，但是空间复杂度要略高。</p>
+</blockquote>
+
+<h2 id="steps">Steps</h2>
+
+<blockquote>
+<ul>
+<li>Recursion</li>
+<li>Store States</li>
+<li>Bottom-up</li>
+</ul>
+</blockquote>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">于华丽</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-04-07</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">Reward</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/wechat-qr-code.png">
+        <span>wechat</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/alipay-qr-code.png">
+        <span>alipay</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/algo-dp/">algo-dp</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/design/design-patterns/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Design Patterns</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
         </div>
         
+  
+
+  
 
       </div>
     </main>

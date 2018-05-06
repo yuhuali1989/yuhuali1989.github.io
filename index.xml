@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>Introduction to Big Data Architecture</title>
+      <link>http://yuhuali1989.github.io/post/architecture/big-data-architecture/</link>
+      <pubDate>Sun, 06 May 2018 21:05:42 +0800</pubDate>
+      
+      <guid>http://yuhuali1989.github.io/post/architecture/big-data-architecture/</guid>
+      <description>Overview 大数据架构</description>
+    </item>
+    
+    <item>
+      <title>Design Patterns</title>
+      <link>http://yuhuali1989.github.io/post/design/design-patterns/</link>
+      <pubDate>Sun, 06 May 2018 20:46:35 +0800</pubDate>
+      
+      <guid>http://yuhuali1989.github.io/post/design/design-patterns/</guid>
+      <description> Overview   Gang of Four patterns Concurrency patterns Architectural patterns   </description>
+    </item>
+    
+    <item>
       <title>Dynamic Programming</title>
-      <link>http://yuhuali1989.github.io/post/leetcodes/</link>
+      <link>http://yuhuali1989.github.io/post/algo/dynamic-pogramming/</link>
       <pubDate>Sat, 07 Apr 2018 23:31:36 +0800</pubDate>
       
-      <guid>http://yuhuali1989.github.io/post/leetcodes/</guid>
+      <guid>http://yuhuali1989.github.io/post/algo/dynamic-pogramming/</guid>
       <description>Overview 动态规划是一种算法优化手段，通过把复杂问题拆解成一系列会重复出现的子问题，存储子问题的状态，利用子问题状态减少计算，因此通常比朴素解法时间</description>
     </item>
     
